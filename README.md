@@ -1,9 +1,14 @@
-  #########Face Dectection##########
+**Facial recognition System**
 
+The project "Système de Reconnaissance Faciale" was developed using deep learning techniques, specifically focusing on convolutional neural networks (CNN) for facial recognition. Key tools and libraries used include:
 
-![face dec](https://user-images.githubusercontent.com/81293137/163672525-9f4be657-96f6-4d99-b833-a6bb892f5826.jpg)
+## Tools : 
 
+- **Deep Learning Frameworks**: CNN (Convolutional Neural Network) for image processing and facial recognition.
+- **DeepFace Library**: Used for analyzing images and classifying them based on detected emotions.
+- **Webcam Integration**: For capturing images in real-time, which are then stored and processed.
+- **Image Processing**: Creation of bounding boxes around detected faces, reading and analyzing images from a dataset, and handling webcam feeds.
+- **Python Libraries**: To support tasks such as model loading, dataset handling, and performing facial analysis based on a trained model.
 
-I build an facial recognition system for detecting face using webcam , 
-adding emotion detection by use a library named deepface 
-this library is used to analyse image and change the background color 
+## Conclusion
+The project involves capturing and processing images, comparing them with a database of stored facial models to verify identities, and performing emotion detection​.
